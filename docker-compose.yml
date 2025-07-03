@@ -1,0 +1,17 @@
+services:
+  reporte_gob:
+    container_name: reporte_gob
+    build:
+      context: https://github.com/Dir-Tecno/reporte-gob.git
+    restart: unless-stopped
+    networks:
+      front-net:
+        ipv4_address: 172.21.0.6
+    ports:
+      - 8505:8501
+    environment:
+      - SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+
+networks:
+  front-net:                #Gateway: 172.21.0.1
+    external: true          #Subnet:      #Subnet: IP_ADDRESS/16
