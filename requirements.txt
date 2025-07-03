@@ -1,0 +1,30 @@
+# Dependencias base
+pyarrow>=15.0.0
+pandas==2.2.2
+
+# Dependencias geoespaciales
+geopandas
+
+# Dependencias principales
+streamlit==1.37.1
+plotly==5.23.0
+requests==2.32.3
+
+# Visualización de datos
+folium==0.17.0
+streamlit_folium==0.23.1
+matplotlib==3.9.0
+streamlit-plotly-events==0.0.6
+
+# Análisis de datos
+textblob==0.17.1
+openpyxl==3.1.2
+scipy==1.15.3
+statsmodels==0.14.4
+
+# Integraciones de API
+supabase==2.10.0
+huggingface-hub==0.20.3
+
+# Visualización adicional
+wordcloud

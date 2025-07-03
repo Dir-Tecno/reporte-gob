@@ -1,0 +1,8 @@
+fresh_venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/
+Repositorio-Reportes-main/
+docker-compose.yml
