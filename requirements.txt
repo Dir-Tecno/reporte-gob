@@ -25,6 +25,7 @@ statsmodels==0.14.4
 # Integraciones de API
 supabase==2.10.0
 huggingface-hub==0.20.3
+minio
 
 # Visualización adicional
 wordcloud
