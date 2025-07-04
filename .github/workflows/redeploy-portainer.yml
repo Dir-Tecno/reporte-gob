@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: 🔄 Activar Webhook de Portainer
         run: |
-          RESPONSE=$(curl -X POST https://5.161.118.67:9443/api/stacks/webhooks/be58119d-afef-4153-b135-1b63d0d961df -k -w "%{http_code}")
+          RESPONSE=$(curl -X POST https://5.161.118.67:9443/api/stacks/webhooks/cc99852c-731e-4a8e-8581-9133af02f5ef -k -w "%{http_code}")
           if [[ "$RESPONSE" != "200" && "$RESPONSE" != "204" ]]; then
             echo "❌ Error al activar webhook. Código de respuesta: $RESPONSE"
             exit 1
